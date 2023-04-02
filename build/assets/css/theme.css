@@ -1,0 +1,120 @@
+/*!
+Template :	ICOCrypto @by Softnio
+Theme	 :  Default
+Version   :  1.9.3
+Updated   :  05/05/2021
+*/
+/*! WRITE YOUR CUSTOM STYLE **/
+
+* {
+  scroll-behavior: smooth;
+}
+
+.color-white {
+  color: white;
+}
+
+.close-button {
+  color: white;
+}
+
+.close-button:hover {
+  color: white;
+}
+
+.transparent-bg {
+  background-color: transparent;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.wallet-name {
+  margin-left: 20px;
+  color: white;
+}
+
+.wallet-content {
+  display: block;
+  position: relative;
+  width: 125%;
+  left: -12.25%;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.wallet-content:hover {
+  background-color: rgb(243 186 47);
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.wallet-body {
+  margin-left: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wallet-logo {
+  margin-top: -12.5px;
+  /* margin-left: 25px;
+    float: left; */
+}
+
+.new-partners-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border {
+  position: relative;
+  border-radius: 15px;
+  width: 250px;
+  height: 75px;
+  margin-right: 0px;
+  background-color: black;
+}
+
+.menu-shown {
+  transition: all 0.3s ease;
+}
+
+.header-navbar {
+  transition: all 0.3s ease;
+}
+
+.header-navbar-overlay {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: all 0.3s ease;
+}
+
+.header-nav-toggle {
+  transition: all 0.3s ease;
+}
+
+.navbar-active {
+  transition: all 0.3s ease;
+}
+
+.button-container {
+  position: relative;
+}
+
+.btn-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.buy-history-content {
+  color: black;
+  background-color: rgb(243 186 47);
+  border-radius: 10px;
+}

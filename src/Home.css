@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.border {
+  border-width: 5px;
+  border-top: 5px;
+  margin-right: 15px;
+  color: #000;
+}
+.rounded-xl {
+  border-radius: 0.5rem;
+  margin-right: 10px;
+}
+.new-partners-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center {
+  text-align: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+.h-xxxl {
+  height: 126px;
+}
+.bg-deep\/50 {
+  background-color: #000;
+}
+.bg {
+  background-color: #000;
+}
+.btn-hung{
+  border-radius: 50px;
+}
+.token-hung{
+  text-align: left;
+}
+.team {
+  border-radius: 25px;
+  background-image: linear-gradient(
+    291deg,
+    #0015ff 10%,
+    #00e5ff 100%
+  ) !important;
+  background-position: left top;
+  background-repeat: repeat;
+  box-shadow: 5px 5px 10px rgba(0, 121, 165, 0.896);
+}
+.team:hover {
+  background-color: black;
+}
+.v-profile {
+  background-image: linear-gradient(291deg, #000000 0%, #000000 100%);
+  border-radius: 10px;
+  border-color: #000;
+  border-style: initial;
+  color: #00d9ff;
+  font-family: poppins;
+}
+.work {
+  font-size: medium;
+  font-weight: 400;
+  font-family: poppins;
+  font-size: 20px;
+}
+.teamtittle {
+  text-shadow: 2px 2px 2px black;
+}
+
+.web3modal-modal-lightbox.web3modal-modal-lightbox {
+  z-index: 9999 !important;
+}
